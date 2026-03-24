@@ -1,0 +1,57 @@
+# Python virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Database & sensitive
+*.db
+*.sqlite
+*.sqlite3
+storage/*.db
+.env
+.env.local
+secrets.json
+*.key
+*.pem
+
+# Streamlit
+.streamlit/
+.streamlit/cache/
+.streamlit/secrets.toml
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+test/sample_docs/*.pdf
+test/sample_docs/*.jpg
+test/sample_docs/*.png
+
+# Logs & temp
+*.log
+logs/
+*.tmp
+*.bak
+
+# OS
+Thumbs.db
